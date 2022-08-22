@@ -1,0 +1,90 @@
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 300;
+  src: local(""), url("/fonts/PlayfairDisplay-Italic.ttf") format("ttf"),
+    url("/fonts/PlayfairDisplay-Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("/fonts/PlayfairDisplay-Black.ttf") format("ttf"),
+    url("/fonts/PlayfairDisplay-BlackItalic.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("/fonts/PlayfairDisplay-Bold.ttf") format("ttf"),
+    url("/fonts/PlayfairDisplay-BoldItalic.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Segoe Ul";
+  font-style: normal;
+  font-weight: 300;
+  src: local(""), url("/fonts/Segoe\ UI.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Segoe Ul";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("/fonts/Segoe\ UI\ Bold.ttf") format("ttf");
+  src: local(""), url("/fonts/Segoe\ UI\ Bold\ Italic.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Segoe Ul";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("/fonts/Segoe\ UI\ Italic.ttf") format("ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Segoe UI", " Roboto", "Helvetica Neue", "Noto Sans",
+    "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+.large {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+}
+.big-text {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+}
+.Continue {
+  font-weight: 700;
+}
+.multiple {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+.post {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+}
+
+.footer {
+  color: #727272;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 0.05rem solid #e5e5e5;
+}
